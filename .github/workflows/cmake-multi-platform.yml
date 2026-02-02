@@ -18,6 +18,16 @@ jobs:
 
       matrix:
         include:
+          - os: macos-14
+            xcode: /Applications/Xcode_15.0.1.app
+          - os: macos-14
+            xcode: /Applications/Xcode_15.1.app
+          - os: macos-14
+            xcode: /Applications/Xcode_15.2.app
+          - os: macos-14
+            xcode: /Applications/Xcode_15.3.app
+          - os: macos-14
+            xcode: /Applications/Xcode_15.4.app
           - os: macos-15
             xcode: /Applications/Xcode_16.app
           - os: macos-15
